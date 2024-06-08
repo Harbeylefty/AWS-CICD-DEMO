@@ -7,9 +7,8 @@ jobs:
   build: 
     strategy: 
       matrix:
-        operating-system: [ubuntu-latest, macos-latest]
         node-version: [20.x]
-    runs-on: ${{  matrix.operating-system}}
+    runs-on: self hosted
     steps:
       - name: Get code
         uses: actions/checkout@v4
