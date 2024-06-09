@@ -1,4 +1,4 @@
-name: NodeJs  CICD
+name: NodeJs CICD
 on: 
   push:
     branches:
