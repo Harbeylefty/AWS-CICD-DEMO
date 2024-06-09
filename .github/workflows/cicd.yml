@@ -22,4 +22,4 @@ jobs:
       - name: Run tests
         run: npm test
       - name: Restart server
-        run: pm2 start backendserver
+        run: pm2 restart backendserer
